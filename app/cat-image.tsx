@@ -24,7 +24,7 @@ export function CatImage({ url }: CatImageProps) {
         他のにゃんこも見る
       </button>
       <div className={styles.frame}>
-        {imageUrl && <img src={imageUrl} alt="cat" className={styles.img}/>}
+        {imageUrl && <img src={imageUrl} alt="cat-fhoto" className={styles.img}/>}
       </div>
     </div>
   );
